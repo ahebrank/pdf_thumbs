@@ -2,7 +2,6 @@
 
 if ( ! defined('PDF_THUMBS_VERSION') )
 {
-	//Last Update	16 March 2013
 	define('PDF_THUMBS_VERSION', '0.9');
 }
 

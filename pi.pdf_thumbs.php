@@ -13,17 +13,6 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
  Purpose: Thumbnails from uploaded PDFs
 ====================================================================================================
 
-License:
-    CE Image is licensed under the Commercial License Agreement found at http://www.causingeffect.com/software/expressionengine/ce-image/license-agreement
-	Here are a couple of specific points from the license to note again:
-    * One license grants the right to perform one installation of CE Image. Each additional installation of CE Image requires an additional purchased license.
-    * You may not reproduce, distribute, or transfer CE Image, or portions thereof, to any third party.
-	* You may not sell, rent, lease, assign, or sublet CE Image or portions thereof.
-	* You may not grant rights to any other person.
-	* You may not use CE Image in violation of any United States or international law or regulation.
-	The only exceptions to the above four (4) points are any methods clearly designated as having an MIT-style license. Those portions of code specifically designated as having an MIT-style license, and only those portions, will remain bound to the terms of that license.
-*/
-
 if ( ! defined('PDF_THUMBS_VERSION') )
 {
 	include( PATH_THIRD . 'pdf_thumbs/config.php' );
