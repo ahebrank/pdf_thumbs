@@ -31,7 +31,9 @@ class Pdf_thumbs
 {
 	//---------- you can change the values for the following variables ----------
 	/* Thumbnail output directory */
-	private $thumb_dir = '/home/rabiesal/public_html/images/pdf_thumbs';
+	// this is the actual server directory to your thumbnail cache directory
+	private $thumb_dir = '/var/www/html/images/pdf_thumbs';
+	// this is the absolute or relative browser URL to the same directory
 	private $thumb_url = '/images/pdf_thumbs';
 
 	/* The default quality for images saved to jpeg format.
@@ -99,7 +101,7 @@ class Pdf_thumbs
 	public static function usage() {
 		ob_start();
 ?>
-{exp:pdf_thumbs filename="{filesystem_path_to_pdf}" height="100" width="100"}
+{exp:pdf_thumbs filename="{server_path}" height="100" width="100" default="/images/no-thumbnail-available.jpg"}
 
 returns the URL of the generated image (if any)
 
