@@ -12,6 +12,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 ----------------------------------------------------------------------------------------------------
  Purpose: Thumbnails from uploaded PDFs
 ====================================================================================================
+*/
 
 if ( ! defined('PDF_THUMBS_VERSION') )
 {
