@@ -85,7 +85,7 @@ class Pdf_thumbs
 			$this->valid_params['width'],
 			$this->valid_params['height'],
 			$outputpath);
-		exec($cmd, &$output, &$return_val);
+		exec($cmd, $output, $return_val);
 
 		if ($return_val != 0) {
 			return (!empty($this->valid_params['default'])? $this->valid_params['default']:null);
